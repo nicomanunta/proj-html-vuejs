@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+@mixin teaser-title{
+    color: $dark_text;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin important-title{
+    color: $main_violet;
+    text-align: center;
+    font-weight: bold;
+}
